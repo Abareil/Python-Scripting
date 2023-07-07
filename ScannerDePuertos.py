@@ -5,7 +5,7 @@ import socket
 
 
 #ip de loopback para el ejemplo
-ip = '127.0.0.1' #puedo solicitar el puerto 
+ip = '127.0.0.1' #puedo solicitar la ip con input o utilizar un scrip que me devuelva ip para determinado host
 
 for port in range(1,1000): #puedo definir el rango que necesite entre (1, 65535)
     #inicio el socket para IPV4 y protocolo TCP
